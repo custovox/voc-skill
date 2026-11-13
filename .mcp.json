@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "voc": {
+      "command": "uv",
+      "args": ["--directory", "${CLAUDE_PLUGIN_ROOT}", "run", "--quiet", "voc-mcp"]
+    }
+  }
+}

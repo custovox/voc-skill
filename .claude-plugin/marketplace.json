@@ -1,0 +1,18 @@
+{
+  "name": "custovox-voc",
+  "owner": {
+    "name": "CustoVox.ai",
+    "url": "https://custovox.ai"
+  },
+  "description": "Voice-of-the-Customer skill and MCP server by CustoVox.ai.",
+  "plugins": [
+    {
+      "name": "voc-skill",
+      "source": "./",
+      "description": "Analyse customer feedback (reviews, verbatims, calls) into themes, pain points, weak signals and an action plan.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": ["voice-of-customer", "customer-experience", "marketing", "french"]
+    }
+  ]
+}

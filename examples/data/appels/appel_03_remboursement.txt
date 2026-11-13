@@ -1,0 +1,13 @@
+Agent : Maison Verveine, service client, bonjour.
+Client : Bonjour. C'est la quatrième fois que j'appelle pour le même problème et j'ai attendu quarante minutes avant d'avoir quelqu'un.
+Agent : Je suis navrée pour l'attente. Je vous écoute.
+Client : J'ai renvoyé un coffret le 15 août. Vous l'avez reçu le 20, j'ai l'accusé de réception. On est fin septembre et je ne suis toujours pas remboursé.
+Agent : Pouvez-vous me donner votre nom et votre numéro de commande ?
+Client : Karim Haddad, commande 702354. Mon mail c'est k.haddad@exemple.com, vous avez dû recevoir mes trois messages.
+Agent : Je vois votre dossier. Le retour est bien enregistré, mais le remboursement n'a pas été déclenché. Je m'en occupe maintenant.
+Client : On m'a déjà dit ça la dernière fois. Qu'est-ce qui me garantit que ça va marcher ?
+Agent : Je vais faire la demande en priorité et vous envoyer une confirmation écrite. Le virement apparaîtra sous 3 à 5 jours ouvrés.
+Client : Franchement, j'aime bien vos produits, mais si je dois me battre à chaque fois, je vais arrêter de commander.
+Agent : Je comprends, et je vous présente nos excuses. Je vous ajoute aussi un bon de 10 euros sur votre prochaine commande.
+Client : Bon. On verra. Envoyez-moi la confirmation.
+Agent : C'est fait. Merci de votre patience, au revoir Monsieur.

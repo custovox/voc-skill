@@ -1,0 +1,11 @@
+.venv/
+.uv-cache/
+.tmp/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+.DS_Store
+Thumbs.db

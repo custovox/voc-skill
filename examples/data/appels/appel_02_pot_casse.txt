@@ -1,0 +1,13 @@
+Agent : Maison Verveine bonjour, Thomas à l'appareil, comment puis-je vous aider ?
+Client : Bonjour, je vous appelle parce que j'ai reçu ma commande hier et le pot de crème de nuit était cassé. Il y avait du verre partout dans le carton.
+Agent : Oh, je suis vraiment désolé. Vous ne vous êtes pas blessé ?
+Client : Non, ça va, mais j'ai eu chaud. Et le savon à côté était plein de crème, il est fichu aussi.
+Agent : Je comprends. Est-ce que vous pourriez m'envoyer une photo du colis et des produits à l'adresse indiquée dans l'e-mail que je vais vous transmettre ?
+Client : Je l'ai déjà envoyée hier soir via le formulaire. Personne ne m'a répondu, c'est pour ça que j'appelle.
+Agent : D'accord, je la retrouve. Effectivement. Je vous renvoie la crème et le savon dès aujourd'hui.
+Client : Très bien. Mais vous devriez vraiment revoir vos emballages. Les pots en verre c'est joli mais là il n'y avait presque rien pour les caler.
+Agent : Vous avez raison, nous avons plusieurs retours similaires. Je le note dans votre dossier.
+Client : Et sinon, vous ne faites pas de recharges ? Je finirais par avoir dix pots vides chez moi.
+Agent : Pas pour l'instant, mais c'est une demande qui revient. Je la transmets.
+Client : Ok. Merci, vous êtes aimable.
+Agent : Je vous en prie, bonne journée Monsieur.

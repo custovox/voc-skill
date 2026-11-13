@@ -1,0 +1,832 @@
+{
+  "title": "Voix du client · Maison Verveine · avril-septembre 2026",
+  "scope": {
+    "source": "200 avis clients (site, application, enquête e-mail, réseaux sociaux, marketplace) + 5 transcriptions d'appels",
+    "records_analysed": 205,
+    "records_total": 205,
+    "sampling": "aucun : lecture exhaustive des 205 verbatims"
+  },
+  "executive_summary": [
+    "Les produits sont plébiscités (efficacité : 37 mentions, naturalité : 35, texture et parfum : 26) ; le problème est l'expérience autour du produit, pas le produit lui-même.",
+    "La note moyenne passe de 3,69 en juin à 2,96 en septembre : la dégradation commence en juillet, avec le changement de transporteur (29 des 31 avis évoquant un retard datent de juillet à septembre).",
+    "Le service client difficile à joindre est l'irritant n° 1 (36 verbatims, 18 %, intensité 4) et il s'aggrave avec les retards : 13 mentions en septembre contre 2 à 4 par mois au printemps.",
+    "Les colis abîmés (pots en verre cassés, 21 verbatims) forment le second irritant urgent ; 3 clients disent avoir failli se couper.",
+    "30 clients (15 %) expriment une intention de départ (« je vais aller voir ailleurs », « je ne recommanderai plus »).",
+    "Signal faible à traiter immédiatement : 4 signalements de rougeurs avec la nouvelle formule de la Crème Nuit Réparatrice, tous en septembre."
+  ],
+  "themes": [
+    {
+      "name": "Service client difficile à joindre",
+      "type": "pain_point",
+      "count": 36,
+      "intensity": 4,
+      "description": "Attente téléphonique, e-mails sans réponse, chat automatique, rappels promis non tenus, obligation de répéter son problème.",
+      "emotions": [
+        "frustration",
+        "colère"
+      ],
+      "channels": [
+        "site",
+        "enquête e-mail",
+        "réseaux sociaux",
+        "application",
+        "marketplace",
+        "appel"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0037",
+          "text": "Impossible de joindre le service client, 40 minutes d'attente au téléphone.",
+          "rating": 1.0,
+          "channel": "enquête e-mail"
+        },
+        {
+          "id": "AV-0105",
+          "text": "J'ai dû appeler quatre fois pour expliquer le même problème. Je vais aller voir ailleurs.",
+          "rating": 2.0,
+          "channel": "réseaux sociaux"
+        },
+        {
+          "id": "appel_03_remboursement",
+          "text": "C'est la quatrième fois que j'appelle pour le même problème et j'ai attendu quarante minutes avant d'avoir quelqu'un.",
+          "rating": null,
+          "channel": "appel"
+        }
+      ]
+    },
+    {
+      "name": "Retards et suivi de livraison",
+      "type": "pain_point",
+      "count": 33,
+      "intensity": 3,
+      "description": "Délais allongés, suivi bloqué, point relais modifié, « destinataire absent » à tort ; quasi exclusivement depuis le changement de transporteur en juillet.",
+      "emotions": [
+        "frustration",
+        "déception"
+      ],
+      "channels": [
+        "site",
+        "enquête e-mail",
+        "réseaux sociaux",
+        "marketplace",
+        "application",
+        "appel"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0149",
+          "text": "Déçue. Depuis que vous avez changé de transporteur c'est devenu très long. Impossible de joindre le service client, 40 minutes d'attente au téléphone.",
+          "rating": 2.0,
+          "channel": "site"
+        },
+        {
+          "id": "AV-0141",
+          "text": "Résultat visible, mes mains ne sont plus sèches. Seul bémol : colis livré avec 6 jours de retard, j'ai dû racheter en pharmacie entre temps.",
+          "rating": 3.0,
+          "channel": "réseaux sociaux"
+        },
+        {
+          "id": "appel_01_colis_perdu",
+          "text": "Mais franchement avant vos livraisons étaient parfaites, depuis l'été c'est la galère.",
+          "rating": null,
+          "channel": "appel"
+        }
+      ]
+    },
+    {
+      "name": "Colis abîmés, pots en verre cassés",
+      "type": "pain_point",
+      "count": 21,
+      "intensity": 4,
+      "description": "Pots en verre cassés ou fêlés, flacons qui fuient dans le colis, calage insuffisant ; présent sur toute la période, donc structurel.",
+      "emotions": [
+        "colère",
+        "déception",
+        "inquiétude"
+      ],
+      "channels": [
+        "site",
+        "enquête e-mail",
+        "application",
+        "réseaux sociaux",
+        "appel"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0056",
+          "text": "Je ne recommanderai plus. Pot cassé à la réception, j'ai failli me couper en ouvrant le colis. Il faut vraiment améliorer ça.",
+          "rating": 2.0,
+          "channel": "site"
+        },
+        {
+          "id": "AV-0091",
+          "text": "Expérience décevante. Deuxième fois que je reçois un pot fêlé. Le calage est insuffisant. Je vais aller voir ailleurs.",
+          "rating": 1.0,
+          "channel": "enquête e-mail"
+        },
+        {
+          "id": "appel_02_pot_casse",
+          "text": "Les pots en verre c'est joli mais là il n'y avait presque rien pour les caler.",
+          "rating": null,
+          "channel": "appel"
+        }
+      ]
+    },
+    {
+      "name": "Remboursements lents ou incomplets",
+      "type": "pain_point",
+      "count": 12,
+      "intensity": 4,
+      "description": "Remboursements de plus de 30 jours, remboursements partiels sans explication, retours reçus mais non traités.",
+      "emotions": [
+        "colère",
+        "déception"
+      ],
+      "channels": [
+        "site",
+        "enquête e-mail",
+        "réseaux sociaux",
+        "application",
+        "appel"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0015",
+          "text": "Grosse déception. Le remboursement a pris plus de 30 jours, c'est inadmissible. Il faut vraiment améliorer ça.",
+          "rating": 1.0,
+          "channel": "application"
+        },
+        {
+          "id": "AV-0060",
+          "text": "Déçue. Remboursement partiel sans explication, j'attends toujours le reste. Je vais aller voir ailleurs.",
+          "rating": 2.0,
+          "channel": "réseaux sociaux"
+        },
+        {
+          "id": "appel_03_remboursement",
+          "text": "Franchement, j'aime bien vos produits, mais si je dois me battre à chaque fois, je vais arrêter de commander.",
+          "rating": null,
+          "channel": "appel"
+        }
+      ]
+    },
+    {
+      "name": "Prix et frais de port",
+      "type": "pain_point",
+      "count": 15,
+      "intensity": 2,
+      "description": "Formats jugés petits pour le prix, hausse de prix, frais de port et seuil de gratuité relevé à 59 €.",
+      "emotions": [
+        "déception"
+      ],
+      "channels": [
+        "site",
+        "enquête e-mail",
+        "réseaux sociaux",
+        "application",
+        "marketplace"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0071",
+          "text": "Résultat visible, mes mains ne sont plus sèches. Seul bémol : le seuil de livraison gratuite est passé à 59 €, c'est trop.",
+          "rating": 4.0,
+          "channel": "site"
+        },
+        {
+          "id": "AV-0032",
+          "text": "Je ne recommanderai plus. Bon produit mais le prix a augmenté depuis l'an dernier. Il faut vraiment améliorer ça.",
+          "rating": 3.0,
+          "channel": "application"
+        }
+      ]
+    },
+    {
+      "name": "Nouvelle pompe qui fuit",
+      "type": "pain_point",
+      "count": 8,
+      "intensity": 3,
+      "description": "Le nouveau flacon pompe (sérum, huile) se bloque et fuit ; aucune mention avant le 21 août.",
+      "emotions": [
+        "frustration"
+      ],
+      "channels": [
+        "site",
+        "réseaux sociaux"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0147",
+          "text": "Déçue. La nouvelle pompe fuit, le produit coule dans la trousse. Dommage car les produits sont bons.",
+          "rating": 2.0,
+          "channel": "réseaux sociaux"
+        },
+        {
+          "id": "AV-0192",
+          "text": "Franchement pas content. Le flacon pompe est arrivé à moitié vide, il fuyait. Je vais aller voir ailleurs.",
+          "rating": 3.0,
+          "channel": "site"
+        }
+      ]
+    },
+    {
+      "name": "Codes promo refusés",
+      "type": "pain_point",
+      "count": 8,
+      "intensity": 2,
+      "description": "Codes de bienvenue, de parrainage ou de newsletter refusés au paiement ; conditions d'exclusion non indiquées dans les e-mails.",
+      "emotions": [
+        "frustration"
+      ],
+      "channels": [
+        "site",
+        "application",
+        "appel"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0027",
+          "text": "L'odeur de verveine est fraîche et naturelle, pas écœurante. Par contre code de bienvenue refusé au paiement, j'ai payé plein tarif.",
+          "rating": 4.0,
+          "channel": "application"
+        },
+        {
+          "id": "appel_05_code_promo",
+          "text": "Ah oui. Mais ce n'est écrit nulle part dans le mail.",
+          "rating": null,
+          "channel": "appel"
+        }
+      ]
+    },
+    {
+      "name": "Réactions cutanées (Crème Nuit Réparatrice)",
+      "type": "pain_point",
+      "count": 4,
+      "intensity": 5,
+      "description": "Rougeurs et picotements depuis la nouvelle formule de la crème de nuit ; tous les signalements datent de septembre.",
+      "emotions": [
+        "inquiétude"
+      ],
+      "channels": [
+        "enquête e-mail",
+        "site",
+        "application",
+        "appel"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0169",
+          "text": "Je ne recommanderai plus. Picotements et plaques rouges après deux applications de la crème de nuit, j'ai arrêté. Il faut vraiment améliorer ça.",
+          "rating": 1.0,
+          "channel": "enquête e-mail"
+        },
+        {
+          "id": "AV-0174",
+          "text": "Ma peau a réagi à la Crème Nuit (rougeurs, picotements), ce n'était pas le cas avant. Je vais aller voir ailleurs.",
+          "rating": 1.0,
+          "channel": "site"
+        },
+        {
+          "id": "appel_04_reaction_creme",
+          "text": "Et depuis, j'ai des rougeurs et des picotements sur les joues le matin. Je n'avais jamais eu ça avant. J'ai lu sur le pot que la formule avait changé.",
+          "rating": null,
+          "channel": "appel"
+        }
+      ]
+    },
+    {
+      "name": "Efficacité des soins",
+      "type": "delight",
+      "count": 37,
+      "description": "Résultats visibles et rapides : peau douce, teint unifié, mains réparées.",
+      "emotions": [
+        "satisfaction",
+        "enthousiasme"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0089",
+          "text": "Le sérum a vraiment unifié mon teint, je suis bluffée.",
+          "rating": 3.0,
+          "channel": "site"
+        },
+        {
+          "id": "AV-0005",
+          "text": "Rien à redire sur le produit. Crème très efficace, ma peau ne tiraille plus. Merci Maison Verveine !",
+          "rating": 5.0,
+          "channel": "site"
+        }
+      ]
+    },
+    {
+      "name": "Naturalité et transparence",
+      "type": "delight",
+      "count": 35,
+      "description": "Composition courte, bio, fabrication française, engagement sur les emballages : le cœur de la promesse de marque.",
+      "emotions": [
+        "confiance"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0008",
+          "text": "Je recommande. Enfin une marque transparente sur ses ingrédients.",
+          "rating": 5.0,
+          "channel": "site"
+        },
+        {
+          "id": "AV-0035",
+          "text": "Composition courte et naturelle, ça me rassure.",
+          "rating": 5.0,
+          "channel": "site"
+        }
+      ]
+    },
+    {
+      "name": "Texture et parfum",
+      "type": "delight",
+      "count": 26,
+      "description": "Textures fondantes et non grasses, parfum de verveine frais et naturel.",
+      "emotions": [
+        "plaisir"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0113",
+          "text": "Très satisfaite ! L'odeur de verveine est fraîche et naturelle, pas écœurante.",
+          "rating": 5.0,
+          "channel": "application"
+        },
+        {
+          "id": "AV-0018",
+          "text": "Première commande et conquise. Texture légère, non grasse, parfaite sous le maquillage. Merci Maison Verveine !",
+          "rating": 5.0,
+          "channel": "réseaux sociaux"
+        }
+      ]
+    },
+    {
+      "name": "Service client aimable quand il est joint",
+      "type": "delight",
+      "count": 23,
+      "description": "Une fois en contact, les conseillers résolvent vite et avec bienveillance : le problème est l'accessibilité, pas la qualité des équipes.",
+      "emotions": [
+        "soulagement",
+        "satisfaction"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0067",
+          "text": "Très satisfaite ! Conseillère au téléphone très aimable, problème réglé en 5 minutes. Colis bien emballé et arrivé très vite. Merci Maison Verveine !",
+          "rating": 5.0,
+          "channel": "réseaux sociaux"
+        },
+        {
+          "id": "AV-0115",
+          "text": "Rien à redire sur le produit. Enfin une marque transparente sur ses ingrédients. Le service client m'a renvoyé un produit sans discuter, merci. Je recommanderai.",
+          "rating": 4.0,
+          "channel": "site"
+        }
+      ]
+    },
+    {
+      "name": "Attentions dans le colis",
+      "type": "delight",
+      "count": 16,
+      "description": "Échantillons et mot manuscrit, très appréciés.",
+      "emotions": [
+        "plaisir"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0043",
+          "text": "Première commande et conquise. L'odeur de verveine est fraîche et naturelle, pas écœurante. Petit mot manuscrit et échantillons offerts, j'ai été touchée.",
+          "rating": 4.0,
+          "channel": "site"
+        }
+      ]
+    },
+    {
+      "name": "Livraison rapide (jusqu'en juin)",
+      "type": "delight",
+      "count": 14,
+      "description": "Livraison en 48 h saluée d'avril à juin ; plus aucune mention à partir de juillet.",
+      "emotions": [
+        "satisfaction"
+      ],
+      "quotes": [
+        {
+          "id": "AV-0024",
+          "text": "Super produit. Livraison rapide, reçu en 48h. Merci Maison Verveine !",
+          "rating": 4.0,
+          "channel": "enquête e-mail"
+        }
+      ]
+    }
+  ],
+  "sentiment": {
+    "positive": 84,
+    "mixed": 36,
+    "neutral": 0,
+    "negative": 85,
+    "comment": "Les avis mitigés suivent presque toujours le même schéma : un produit apprécié, puis un problème de livraison, de prix ou d'emballage."
+  },
+  "emotions": [
+    {
+      "emotion": "satisfaction",
+      "count": 84,
+      "comment": "produits, naturalité, attentions"
+    },
+    {
+      "emotion": "frustration",
+      "count": 58,
+      "comment": "livraison et accès au service client"
+    },
+    {
+      "emotion": "déception",
+      "count": 38,
+      "comment": "dont 5 déceptions légères dans des avis globalement positifs"
+    },
+    {
+      "emotion": "colère",
+      "count": 18,
+      "comment": "remboursements, contacts répétés"
+    },
+    {
+      "emotion": "inquiétude",
+      "count": 7,
+      "comment": "réactions cutanées et risque de coupure avec le verre cassé"
+    }
+  ],
+  "weak_signals": [
+    {
+      "signal": "Rougeurs et picotements avec la nouvelle formule de la Crème Nuit Réparatrice",
+      "count": 4,
+      "evidence_ids": [
+        "AV-0169",
+        "AV-0174",
+        "AV-0184",
+        "appel_04_reaction_creme"
+      ],
+      "why_it_matters": "Risque pour la santé des clients, la conformité réglementaire et la réputation. Les 4 signalements sont concentrés entre le 10 et le 16 septembre, et une cliente évoque une amie touchée.",
+      "recommended_check": "Ouvrir un dossier de cosmétovigilance, identifier le lot (masqué dans la transcription, à récupérer dans l'outil source), recontacter les 4 clients, et évaluer avec le responsable réglementaire s'il s'agit d'effets indésirables graves au sens du règlement (CE) n° 1223/2009."
+    },
+    {
+      "signal": "Risque de coupure à l'ouverture des colis",
+      "count": 3,
+      "evidence_ids": [
+        "AV-0056",
+        "AV-0160",
+        "AV-0190"
+      ],
+      "why_it_matters": "Le bris de verre fait passer l'irritant d'un coût logistique à un enjeu de sécurité.",
+      "recommended_check": "Tests de chute sur l'emballage actuel ; suivre ce motif dans l'outil de tickets."
+    },
+    {
+      "signal": "Fuites de la nouvelle pompe, en hausse",
+      "count": 8,
+      "evidence_ids": [
+        "AV-0142",
+        "AV-0147",
+        "AV-0148",
+        "AV-0154",
+        "AV-0165",
+        "AV-0170",
+        "AV-0192",
+        "AV-0196"
+      ],
+      "why_it_matters": "Apparu le 21 août (3 mentions en août, 5 en septembre) : probable défaut fournisseur ou de lot, à contenir avant qu'il ne grossisse.",
+      "recommended_check": "Test d'étanchéité sur le stock, échange avec le fournisseur de pompes, comparaison avec les lots antérieurs."
+    },
+    {
+      "signal": "Demande de recharges (opportunité)",
+      "count": 6,
+      "evidence_ids": [
+        "AV-0004",
+        "AV-0048",
+        "AV-0074",
+        "AV-0136",
+        "AV-0146",
+        "appel_02_pot_casse"
+      ],
+      "why_it_matters": "Attente cohérente avec le positionnement naturel de la marque ; elle répond aussi en partie au problème du verre cassé et du prix perçu.",
+      "recommended_check": "Ajouter une question sur l'intérêt pour les recharges dans la prochaine enquête et chiffrer un pilote sur la Crème Nuit."
+    }
+  ],
+  "action_plan": [
+    {
+      "action": "Mettre le nouveau transporteur sous plan d'amélioration (délais, suivi, preuves de passage) avec pénalités, et préparer un second transporteur",
+      "themes": [
+        "Retards et suivi de livraison"
+      ],
+      "horizon": "3 mois",
+      "impact": "élevé",
+      "effort": "moyen",
+      "owner": "Logistique",
+      "kpi": "Part des colis livrés en 3 jours ouvrés ou moins : revenir au niveau du printemps"
+    },
+    {
+      "action": "Afficher des délais réalistes au panier et envoyer une alerte proactive en cas de retard",
+      "themes": [
+        "Retards et suivi de livraison",
+        "Service client difficile à joindre"
+      ],
+      "horizon": "quick win",
+      "impact": "moyen",
+      "effort": "faible",
+      "owner": "E-commerce / CRM",
+      "kpi": "Contacts « où est ma commande » : -30 %"
+    },
+    {
+      "action": "Rappel automatique (callback) au lieu de l'attente, engagement de réponse aux e-mails sous 48 h, renfort temporaire tant que les retards durent",
+      "themes": [
+        "Service client difficile à joindre"
+      ],
+      "horizon": "quick win",
+      "impact": "élevé",
+      "effort": "moyen",
+      "owner": "Service client",
+      "kpi": "Taux de décroché > 90 % ; délai de réponse aux e-mails < 48 h"
+    },
+    {
+      "action": "Historique client partagé et résolution au premier contact (le client ne répète pas son problème)",
+      "themes": [
+        "Service client difficile à joindre",
+        "Remboursements lents ou incomplets"
+      ],
+      "horizon": "3 mois",
+      "impact": "élevé",
+      "effort": "moyen",
+      "owner": "Service client / SI",
+      "kpi": "Taux de résolution au premier contact"
+    },
+    {
+      "action": "Nouveau calage des pots en verre (alvéoles en carton moulé) validé par des tests de chute",
+      "themes": [
+        "Colis abîmés, pots en verre cassés"
+      ],
+      "horizon": "quick win",
+      "impact": "élevé",
+      "effort": "faible",
+      "owner": "Logistique / Packaging",
+      "kpi": "Réclamations pour casse < 0,5 % des commandes"
+    },
+    {
+      "action": "Remboursement déclenché automatiquement à la réception du retour, avec notification au client",
+      "themes": [
+        "Remboursements lents ou incomplets"
+      ],
+      "horizon": "3 mois",
+      "impact": "élevé",
+      "effort": "moyen",
+      "owner": "Finance / Service client",
+      "kpi": "Délai de remboursement < 7 jours"
+    },
+    {
+      "action": "Ouvrir un dossier de cosmétovigilance sur la Crème Nuit Réparatrice et recontacter les clients concernés",
+      "themes": [
+        "Réactions cutanées (Crème Nuit Réparatrice)"
+      ],
+      "horizon": "quick win",
+      "impact": "élevé",
+      "effort": "faible",
+      "owner": "Qualité / Réglementaire",
+      "kpi": "Dossier ouvert sous 48 h ; décision sur le lot"
+    },
+    {
+      "action": "Contrôle d'étanchéité des pompes en stock et réclamation fournisseur",
+      "themes": [
+        "Nouvelle pompe qui fuit"
+      ],
+      "horizon": "quick win",
+      "impact": "moyen",
+      "effort": "faible",
+      "owner": "Achats / Qualité",
+      "kpi": "Mentions de fuite : 0 sur le prochain lot"
+    },
+    {
+      "action": "Afficher les conditions des codes promo dans les e-mails et tester les codes avant l'envoi",
+      "themes": [
+        "Codes promo refusés"
+      ],
+      "horizon": "quick win",
+      "impact": "faible",
+      "effort": "faible",
+      "owner": "CRM",
+      "kpi": "Réclamations liées aux codes : 0"
+    },
+    {
+      "action": "Tester un seuil de livraison gratuite à 49 € et valoriser le prix au millilitre et la durée d'utilisation",
+      "themes": [
+        "Prix et frais de port"
+      ],
+      "horizon": "3 mois",
+      "impact": "moyen",
+      "effort": "faible",
+      "owner": "E-commerce",
+      "kpi": "Taux de conversion et panier moyen (test A/B)"
+    },
+    {
+      "action": "Étudier une offre de recharges et capitaliser sur l'efficacité et la naturalité dans les communications (avis, UGC)",
+      "themes": [
+        "Demande de recharges",
+        "Efficacité des soins",
+        "Naturalité et transparence"
+      ],
+      "horizon": "6 mois et +",
+      "impact": "moyen",
+      "effort": "élevé",
+      "owner": "Produit / Marketing",
+      "kpi": "Intention d'achat des recharges ; part de clients récurrents"
+    }
+  ],
+  "limitations": [
+    "Données entièrement fictives, générées pour la démonstration (scripts/generate_demo_data.py).",
+    "Codage thématique réalisé par l'agent après lecture intégrale, avec des règles de mots-clés pour fiabiliser les comptages ; un verbatim peut relever de plusieurs thèmes.",
+    "Les intensités (échelle de 1 à 5) relèvent du jugement de l'analyste, appuyé sur les notes et le vocabulaire.",
+    "Les transcriptions d'appels ne sont pas datées : elles sont exclues des évolutions mensuelles.",
+    "L'anonymisation a masqué les prénoms des conseillers et le numéro de lot cité dans l'appel 4 ; ce numéro est à récupérer dans l'outil source pour l'enquête qualité.",
+    "Les avis publics (réseaux sociaux, marketplace) surreprésentent les expériences extrêmes."
+  ],
+  "stats": {
+    "total": 205,
+    "date_range": {
+      "start": "2026-04-01",
+      "end": "2026-09-29"
+    },
+    "by_channel": [
+      {
+        "value": "site",
+        "count": 112,
+        "share": 0.546
+      },
+      {
+        "value": "application",
+        "count": 29,
+        "share": 0.141
+      },
+      {
+        "value": "enquête e-mail",
+        "count": 27,
+        "share": 0.132
+      },
+      {
+        "value": "réseaux sociaux",
+        "count": 20,
+        "share": 0.098
+      },
+      {
+        "value": "marketplace",
+        "count": 12,
+        "share": 0.059
+      },
+      {
+        "value": "appel",
+        "count": 5,
+        "share": 0.024
+      }
+    ],
+    "by_period": [
+      {
+        "period": "2026-04",
+        "count": 21,
+        "avg_rating": 3.1
+      },
+      {
+        "period": "2026-05",
+        "count": 32,
+        "avg_rating": 3.59
+      },
+      {
+        "period": "2026-06",
+        "count": 29,
+        "avg_rating": 3.69
+      },
+      {
+        "period": "2026-07",
+        "count": 34,
+        "avg_rating": 3.26
+      },
+      {
+        "period": "2026-08",
+        "count": 36,
+        "avg_rating": 3.25
+      },
+      {
+        "period": "2026-09",
+        "count": 48,
+        "avg_rating": 2.96
+      }
+    ],
+    "rating": {
+      "count": 200,
+      "mean": 3.29,
+      "median": 3.0,
+      "distribution": [
+        {
+          "value": "1",
+          "count": 22,
+          "share": 0.11
+        },
+        {
+          "value": "2",
+          "count": 41,
+          "share": 0.205
+        },
+        {
+          "value": "3",
+          "count": 41,
+          "share": 0.205
+        },
+        {
+          "value": "4",
+          "count": 50,
+          "share": 0.25
+        },
+        {
+          "value": "5",
+          "count": 46,
+          "share": 0.23
+        }
+      ],
+      "low_share": 0.315
+    },
+    "text_length_words": {
+      "mean": 23.5,
+      "median": 19,
+      "max": 270
+    },
+    "missing": {
+      "date": 5,
+      "rating": 5,
+      "channel": 0
+    }
+  },
+  "priorities": [
+    {
+      "name": "Service client difficile à joindre",
+      "count": 36,
+      "share": 0.176,
+      "intensity": 4.0,
+      "score": 0.702,
+      "quadrant": "critical"
+    },
+    {
+      "name": "Retards et suivi de livraison",
+      "count": 33,
+      "share": 0.161,
+      "intensity": 3.0,
+      "score": 0.483,
+      "quadrant": "mass"
+    },
+    {
+      "name": "Colis abîmés, pots en verre cassés",
+      "count": 21,
+      "share": 0.102,
+      "intensity": 4.0,
+      "score": 0.41,
+      "quadrant": "critical"
+    },
+    {
+      "name": "Remboursements lents ou incomplets",
+      "count": 12,
+      "share": 0.059,
+      "intensity": 4.0,
+      "score": 0.234,
+      "quadrant": "acute"
+    },
+    {
+      "name": "Prix et frais de port",
+      "count": 15,
+      "share": 0.073,
+      "intensity": 2.0,
+      "score": 0.146,
+      "quadrant": "watch"
+    },
+    {
+      "name": "Nouvelle pompe qui fuit",
+      "count": 8,
+      "share": 0.039,
+      "intensity": 3.0,
+      "score": 0.117,
+      "quadrant": "watch"
+    },
+    {
+      "name": "Réactions cutanées (Crème Nuit Réparatrice)",
+      "count": 4,
+      "share": 0.02,
+      "intensity": 5.0,
+      "score": 0.098,
+      "quadrant": "acute"
+    },
+    {
+      "name": "Codes promo refusés",
+      "count": 8,
+      "share": 0.039,
+      "intensity": 2.0,
+      "score": 0.078,
+      "quadrant": "watch"
+    }
+  ],
+  "generated_at": "2026-11-13T14:02:14",
+  "language": "fr"
+}

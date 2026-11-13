@@ -1,0 +1,14 @@
+{
+  "name": "voc-skill",
+  "displayName": "Voix du client / Voice of the Customer",
+  "version": "0.1.0",
+  "description": "Turn customer reviews, verbatims and call transcripts into an actionable Voice-of-the-Customer diagnosis: themes, pain points, emotions, weak signals, prioritisation and action plan. GDPR-minded anonymisation included. French and English.",
+  "author": {
+    "name": "CustoVox.ai",
+    "url": "https://custovox.ai"
+  },
+  "homepage": "https://github.com/custovox/voc-skill",
+  "repository": "https://github.com/custovox/voc-skill",
+  "license": "MIT",
+  "keywords": ["voice-of-customer", "customer-experience", "cx", "reviews", "verbatims", "gdpr", "mcp", "french"]
+}

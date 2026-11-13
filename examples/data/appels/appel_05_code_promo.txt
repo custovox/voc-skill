@@ -1,0 +1,13 @@
+Agent : Maison Verveine, service client, bonjour, Julien à votre service.
+Client : Bonjour Julien. J'ai un petit souci, le code de bienvenue que j'ai reçu par mail ne marche pas.
+Agent : Je vais regarder ça. Quel code avez-vous essayé ?
+Client : BIENVENUE15. Le site me dit qu'il n'est pas valable.
+Agent : Je vois. Ce code ne s'applique pas aux coffrets, c'est peut-être pour ça. Votre panier contient le Coffret Découverte ?
+Client : Ah oui. Mais ce n'est écrit nulle part dans le mail.
+Agent : Vous avez raison, ce n'est pas clair. Je vous applique la remise manuellement sur la commande.
+Client : Super, merci. Et pendant que je vous ai, la livraison c'est combien de temps en ce moment ?
+Agent : Comptez entre 4 et 7 jours ouvrés actuellement.
+Client : Ah, c'est plus long qu'avant. Bon, ce n'est pas grave, ce n'est pas pressé.
+Agent : La commande est validée avec la remise. Vous recevrez la confirmation par e-mail.
+Client : Parfait, merci beaucoup, c'était rapide.
+Agent : Avec plaisir, merci de votre appel et bonne journée.

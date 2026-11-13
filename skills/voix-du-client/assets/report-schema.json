@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VoC analysis",
+  "type": "object",
+  "required": ["themes"],
+  "properties": {
+    "title": {"type": "string"},
+    "scope": {
+      "type": "object",
+      "properties": {
+        "source": {"type": "string"},
+        "records_analysed": {"type": "integer"},
+        "records_total": {"type": "integer"},
+        "sampling": {"type": "string"}
+      }
+    },
+    "executive_summary": {"type": "array", "items": {"type": "string"}},
+    "themes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {"type": "string"},
+          "type": {"enum": ["pain_point", "delight"], "default": "pain_point"},
+          "description": {"type": "string"},
+          "count": {"type": "integer", "minimum": 0},
+          "intensity": {"type": "number", "minimum": 1, "maximum": 5},
+          "emotions": {"type": "array", "items": {"type": "string"}},
+          "channels": {"type": "array", "items": {"type": "string"}},
+          "quotes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["text"],
+              "properties": {
+                "id": {"type": "string"},
+                "text": {"type": "string"},
+                "rating": {"type": ["number", "null"]},
+                "channel": {"type": ["string", "null"]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "sentiment": {
+      "type": "object",
+      "properties": {
+        "positive": {"type": "integer"}, "mixed": {"type": "integer"},
+        "neutral": {"type": "integer"}, "negative": {"type": "integer"},
+        "comment": {"type": "string"}
+      }
+    },
+    "emotions": {
+      "type": "array",
+      "items": {"type": "object", "required": ["emotion"],
+                "properties": {"emotion": {"type": "string"}, "count": {"type": "integer"}, "comment": {"type": "string"}}}
+    },
+    "weak_signals": {
+      "type": "array",
+      "items": {"type": "object", "required": ["signal"],
+                "properties": {"signal": {"type": "string"}, "count": {"type": "integer"},
+                               "evidence_ids": {"type": "array", "items": {"type": "string"}},
+                               "why_it_matters": {"type": "string"}, "recommended_check": {"type": "string"}}}
+    },
+    "action_plan": {
+      "type": "array",
+      "items": {"type": "object", "required": ["action"],
+                "properties": {"action": {"type": "string"}, "themes": {"type": "array", "items": {"type": "string"}},
+                               "horizon": {"type": "string"}, "impact": {"type": "string"}, "effort": {"type": "string"},
+                               "owner": {"type": "string"}, "kpi": {"type": "string"}}}
+    },
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}

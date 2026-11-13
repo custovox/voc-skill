@@ -1,0 +1,13 @@
+Agent : Maison Verveine bonjour, Nadia à votre écoute, que puis-je faire pour vous ?
+Client : Bonjour. Je voulais vous signaler quelque chose. J'utilise votre Crème Nuit Réparatrice depuis deux ans, et j'ai racheté un pot début septembre.
+Agent : D'accord.
+Client : Et depuis, j'ai des rougeurs et des picotements sur les joues le matin. Je n'avais jamais eu ça avant. J'ai lu sur le pot que la formule avait changé.
+Agent : Merci beaucoup de nous en parler. Je vous conseille d'arrêter l'utilisation pour le moment. Les rougeurs ont-elles disparu ?
+Client : Ça s'est calmé depuis que j'ai arrêté, oui, il y a trois jours. Mais une amie m'a dit qu'elle avait eu la même chose.
+Agent : Je note tout. Pouvez-vous me donner le numéro de lot inscrit sous le pot ?
+Client : Attendez... c'est L2608-114.
+Agent : Merci. Je transmets votre signalement à notre responsable qualité, qui pourra vous rappeler. Quel est le meilleur numéro pour vous joindre ?
+Client : Le 06 58 41 27 93. Je m'appelle Hélène Robin.
+Agent : C'est noté. Je vous propose aussi le remboursement du pot.
+Client : Merci, c'est gentil. Je voulais surtout que vous soyez au courant, je tiens à cette marque.
+Agent : Et nous vous en remercions sincèrement. Bonne fin de journée Madame.

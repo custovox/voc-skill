@@ -1,0 +1,15 @@
+Agent : Maison Verveine, service client, bonjour, Laura à votre écoute. Que puis-je faire pour vous ?
+Client : Bonjour. Alors voilà, j'ai passé commande il y a presque deux semaines et je n'ai toujours rien reçu.
+Agent : Je suis désolée. Pouvez-vous me donner votre numéro de commande ?
+Client : Oui, c'est CMD-2026-51187. Je suis Mme Girard.
+Agent : Merci Madame. Je vois que le colis a été pris en charge par notre nouveau transporteur le 2 septembre, et le suivi n'a plus bougé depuis le 4.
+Client : Voilà. Et sur le site du transporteur il n'y a rien, et leur numéro ne répond pas. C'est la deuxième fois depuis cet été.
+Agent : Je comprends tout à fait votre agacement. J'ouvre une enquête auprès du transporteur, cela prend en général 5 jours ouvrés.
+Client : Cinq jours de plus ? C'était un cadeau pour ma mère, c'est son anniversaire samedi.
+Agent : Dans ce cas je vous propose de vous renvoyer la commande dès aujourd'hui en livraison express, sans frais. Si le premier colis arrive, vous pourrez le refuser.
+Client : Ah, ça oui, ça m'arrange. Vous pouvez l'envoyer au 27 rue Victor Hugo 44000 Nantes ? C'est l'adresse de ma mère.
+Agent : C'est noté. Vous recevrez le numéro de suivi par e-mail d'ici une heure.
+Client : D'accord. Mais franchement avant vos livraisons étaient parfaites, depuis l'été c'est la galère.
+Agent : Je vous remercie de nous le signaler, je fais remonter votre remarque au service logistique. Puis-je faire autre chose pour vous ?
+Client : Non, ça ira. Merci.
+Agent : Merci de votre appel Madame, bonne journée.
