@@ -148,7 +148,7 @@ Les contributions sont bienvenues : nouveaux formats de fichiers, règles d'anon
 
 **Turn customer reviews, verbatims and call transcripts into a clear diagnosis: prioritised pain points, emotions, weak signals and an action plan, in minutes and without any API key.**
 
-<p align="center"><img src="docs/images/demo.gif" alt="Demo: from 200 customer reviews to a Voice-of-the-Customer report" width="760"></p>
+<p align="center"><img src="docs/images/demo-en.gif" alt="Demo: from 200 customer reviews to a Voice-of-the-Customer report" width="760"></p>
 
 ### What it does
 
