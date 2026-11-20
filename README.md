@@ -13,7 +13,6 @@
 
 **Transformez vos avis clients, verbatims et transcriptions d'appels en un diagnostic clair : irritants priorisés, émotions, signaux faibles et plan d'action, en quelques minutes et sans clé d'API.**
 
-<!-- Démonstration : remplacer par docs/images/demo.gif (GIF de 20-30 s : requête → rapport) -->
 <p align="center"><img src="docs/images/demo.gif" alt="Démonstration : de 200 avis clients au rapport voix du client" width="760"></p>
 
 ### Ce que ça fait
