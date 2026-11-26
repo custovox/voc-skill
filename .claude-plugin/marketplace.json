@@ -10,9 +10,14 @@
       "name": "voc-skill",
       "source": "./",
       "description": "Analyse customer feedback (reviews, verbatims, calls) into themes, pain points, weak signals and an action plan.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "productivity",
-      "tags": ["voice-of-customer", "customer-experience", "marketing", "french"]
+      "tags": [
+        "voice-of-customer",
+        "customer-experience",
+        "marketing",
+        "french"
+      ]
     }
   ]
 }

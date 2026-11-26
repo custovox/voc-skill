@@ -1,6 +1,6 @@
 [project]
 name = "voc-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server and Agent Skill to turn customer reviews, verbatims and call transcripts into an actionable Voice-of-the-Customer diagnosis."
 readme = "README.md"
 license = "MIT"

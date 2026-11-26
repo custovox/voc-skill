@@ -58,7 +58,7 @@ Fermez puis rouvrez le terminal.
 /plugin install voc-skill@custovox-voc
 ```
 
-Redémarrez Claude Code. Le skill et le serveur MCP sont installés ensemble.
+Redémarrez Claude Code. Le skill et le serveur MCP sont installés ensemble. Au premier démarrage, le serveur télécharge ses dépendances Python (environ une minute) : s'il apparaît en échec dans `/mcp`, patientez puis choisissez **Reconnect** (voir *Dépannage*).
 
 **Option B · Script d'installation (Claude Code, Codex, Cursor)**
 
@@ -111,8 +111,7 @@ Essayez tout de suite avec les données fictives fournies : « Analyse le dossie
 
 ```
 voc-skill/
-├── .claude-plugin/          # plugin.json + marketplace.json (installation Claude Code)
-├── .mcp.json                # déclaration du serveur MCP pour le plugin
+├── .claude-plugin/          # plugin.json (manifeste + serveur MCP) et marketplace.json (installation Claude Code)
 ├── skills/voix-du-client/   # le skill : SKILL.md, grille d'analyse, priorisation, modèle de rapport
 ├── src/voc_mcp/             # serveur MCP (FastMCP) : chargement, anonymisation, stats, échantillonnage, rapport, audio
 ├── tests/                   # tests (pytest)
@@ -125,9 +124,12 @@ voc-skill/
 
 ### Dépannage
 
-- **« uv n'est pas reconnu »** : fermez et rouvrez le terminal après l'installation de `uv`.
-- **Erreur de certificat (réseau d'entreprise)** : définissez la variable `UV_SYSTEM_CERTS=1` avant de lancer l'agent, pour que `uv` utilise les certificats du système.
+- **« uv n'est pas reconnu »** : fermez **toutes** les fenêtres de terminal (et l'agent lancé depuis l'une d'elles), puis rouvrez-en une après l'installation de `uv`.
+- **Erreur de certificat (réseau d'entreprise)** : demandez à `uv` d'utiliser les certificats du système, une fois pour toutes. Windows : `setx UV_SYSTEM_CERTS 1` ; macOS / Linux : ajoutez `export UV_SYSTEM_CERTS=1` à votre `~/.zshrc` ou `~/.bashrc`. Rouvrez ensuite le terminal.
 - **Le serveur n'apparaît pas** : dans Claude Code, tapez `/mcp` pour voir l'état des serveurs.
+- **Serveur `voc` en échec (*failed*, « Connection closed ») juste après l'installation** : le premier démarrage, qui télécharge les dépendances, a dépassé le délai de Claude Code. Dans `/mcp`, sélectionnez le serveur et choisissez **Reconnect**. Si l'échec persiste, préinstallez les dépendances dans un terminal, puis relancez Claude Code :
+  - Windows : `cd /d %USERPROFILE%\.claude\plugins\cache\custovox-voc\voc-skill\<version>` puis `uv sync`
+  - macOS / Linux : `cd ~/.claude/plugins/cache/custovox-voc/voc-skill/<version> && uv sync`
 - **Mauvaise colonne détectée** : précisez-la dans la requête (« la colonne texte s'appelle *commentaire_client* »).
 
 ### Aller plus loin
@@ -178,7 +180,7 @@ The semantic analysis is done by the agent itself: **no API key, no data sent to
   /plugin marketplace add custovox/voc-skill
   /plugin install voc-skill@custovox-voc
   ```
-  Restart Claude Code.
+  Restart Claude Code. On first start the server downloads its Python dependencies (about a minute): if it shows as failed in `/mcp`, wait and choose **Reconnect** (see *Troubleshooting*).
 - **Installer script (Claude Code, Codex, Cursor)**: download the repository (**Code → Download ZIP**), unzip it in a permanent folder, then run `powershell -ExecutionPolicy Bypass -File install\install.ps1` (Windows) or `bash install/install.sh` (macOS/Linux). The script copies the skill to `~/.claude/skills` and `~/.agents/skills`, registers the MCP server in Claude Code, and prints the snippet for Codex (`~/.codex/config.toml`) and Cursor (`~/.cursor/mcp.json`).
 - **Skill only**: copy `skills/voix-du-client` to `~/.claude/skills/` or `~/.agents/skills/`. It works without the server, in reduced mode.
 
@@ -213,7 +215,13 @@ See the tree in the French section: plugin manifests, the skill (`skills/voix-du
 
 ### Troubleshooting
 
-`uv` not found → reopen the terminal · certificate errors on corporate networks → set `UV_SYSTEM_CERTS=1` · server missing → type `/mcp` in Claude Code · wrong column detected → name it in your prompt.
+- **`uv` not found**: close **all** terminal windows (and any agent started from them), then open a new one after installing `uv`.
+- **Certificate errors on corporate networks**: make `uv` use the system certificates, once and for all. Windows: `setx UV_SYSTEM_CERTS 1`; macOS/Linux: add `export UV_SYSTEM_CERTS=1` to `~/.zshrc` or `~/.bashrc`. Then reopen the terminal.
+- **Server missing**: type `/mcp` in Claude Code to see the servers' status.
+- **`voc` server failed ("Connection closed") right after installing**: the first start, which downloads dependencies, exceeded Claude Code's timeout. In `/mcp`, select the server and choose **Reconnect**. If it still fails, pre-install the dependencies in a terminal, then restart Claude Code:
+  - Windows: `cd /d %USERPROFILE%\.claude\plugins\cache\custovox-voc\voc-skill\<version>` then `uv sync`
+  - macOS/Linux: `cd ~/.claude/plugins/cache/custovox-voc/voc-skill/<version> && uv sync`
+- **Wrong column detected**: name it in your prompt.
 
 ### Going further
 
